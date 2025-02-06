@@ -1,134 +1,4 @@
 
-body {
-    background-color: #000;
-    color: #fff;
-    font-family: "Montserrat", serif;
-    
-}
-* { box-sizing: border-box; }
-.main-heading {
-    font-size: 90px;
-    text-align: left !important;
-    font-weight: 400;
-    max-width: 900px;
-    margin: 50px;
-    padding-left: 50px;
-    line-height: 95%; 
-    height: 75%vh;
-    padding-top: 50px;
-}
-.main-heading span{
- padding-left: 500px;
-}
-.bottom-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center; 
-    padding: 0 50px;
-    width: 100%;
-    margin-bottom: 100px;
-}
-.sub-heading {
-    font-size: 1.2rem;
-    margin-top: 20px;
-    margin:0;
-    width: auto;
-
-}
-.explore-circle {
-    width: 150px;
-    height: 150px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 30px 0 0 0; 
-    color: #fff;
-    text-align: center;
-}
-.explore-circle a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
- /* roots Section */
- .roots {
-    background: url('../images/roots-bg.jpg') no-repeat center center / cover;
-    height: 70vh;          
-    position: relative;
-    display: flex;
-    font-weight: 700;
-    align-items: center;    
-    color: #fff;   
-    overflow: hidden;  
-
-    padding-top: 200px;
-  }
-
-
-  .roots-overlay {
-    position: absolute;
-    top: 0; 
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
-  }
-
-  .roots-content {
-    position: relative;
-    z-index: 1; 
-  }
-
-  .roots-title {
-    font-size: 4rem;   
-    font-weight: 500;  
-    line-height: 1.2;   
-  }
-
-/* Clients Section Styling */
-.clients-section {
-  background-color: #000; /* Black background */
-  padding: 50px 0;
-}
-
-.clients-heading {
-  font-size: 3rem;
-  font-weight: 600;
-  line-height: 1.2;
-}
-
-.client-logo {
-  width: 80px;
-  height: auto;
-  transition: transform 0.3s ease;
-}
-
-.client-logo:hover {
-  transform: scale(1.1); /* Slight zoom on hover */
-}
-
-.logo-text {
-  margin-top: 10px;
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-  /* For tablets and small desktops */
-
   
 body {
   background-color: #111;
@@ -205,7 +75,7 @@ padding-left: 500px;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .roots-content {
@@ -222,7 +92,7 @@ padding-left: 500px;
 
 /* Clients Section Styling */
 .clients-section {
-background-color: #111 ;/* Black background */
+background-color: #111 ;
 padding: 50px 0;
 }
 
@@ -234,17 +104,17 @@ text-align: right;
 }
 
 .client-logo {
-width:100px;  /* Slightly smaller logos */
+width:100px;  
 height: auto;
-transition: transform 0.3s ease;
+transition: transform 0.3s ease !important;
 font-size: 60px;  
 color: #fff;  
-margin: 0;  /* Remove extra margin */
+margin: 0;  
 padding: 0 10px;
 }
 
 .client-logo:hover {
-transform: scale(1.1);
+transform: scale(1.1) !important;
 }
 
 
@@ -286,7 +156,7 @@ text-align: center;
 
 .impact-divider {
   border: none;
-  border-bottom: 1px solid #fff;  /* Thin divider line */
+  border-bottom: 1px solid #fff;  
   margin: 40px 0;
 }
 
