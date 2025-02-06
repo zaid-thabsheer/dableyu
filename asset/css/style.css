@@ -3,9 +3,9 @@ body {
     background-color: #000;
     color: #fff;
     font-family: "Montserrat", serif;
-    box-sizing: border-box;
     
 }
+* { box-sizing: border-box; }
 .main-heading {
     font-size: 90px;
     text-align: left !important;
@@ -88,33 +88,63 @@ body {
     line-height: 1.2;   
   }
 
-  /* Responsive adjustments */
-  @media (max-width: 767.98px) {
-    .roots {
-      height: auto; 
-      padding: 4rem 0;
-    }
-    .roots-title {
-      font-size: 2.5rem; 
-    }
 
-    @media (max-width: 768px) {
-  .main-heading {
-    font-size: 40px;
-    padding-left: 0px;
-  }
-  .main-heading span{
-   padding: 0px;
-  }
+/* Clients Section Styling */
+.clients-section {
+  background-color: #000; /* Black background */
+  padding: 50px 0;
 }
 
+.clients-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: right;
+}
+
+.client-logo {
+  width:100px;  /* Slightly smaller logos */
+  height: auto;
+  transition: transform 0.3s ease;
+  font-size: 60px;  
+  color: #fff;  
+  margin: 0;  /* Remove extra margin */
+  padding: 0 10px;
+}
+
+.client-logo:hover {
+  transform: scale(1.1);
+}
+
+
+.logo-text {
+  margin-top: 5px;  
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: left;
+}
+
+
+
+/* For mobile phones */
 @media (max-width: 480px) {
   .main-heading {
-    font-size: 40px;
-    padding-left: 0px;
+    font-size: 25px;
+    padding-left: 0;
+    text-align: center; /* Center the text on smaller screens */
   }
-  .main-heading span{
-    padding: 0px;
-   }
+  .main-heading span {
+    padding: 0;
+  }
+  
+
+  .clients-heading {
+    font-size: 1.8rem;
 }
-  }
+
+.client-logo {
+    width: 50px;
+}
+
+}
