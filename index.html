@@ -1,19 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE htmx-3>
+<htmx-3 lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>DABLEYU</title>
         <!-- Latest Bootstrap CSS -->
         <link href="asset/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+       
        <!-- Google Fonts Montserrat -->
        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
         <!-- Link to external CSS -->
         <link rel="stylesheet" href="asset/css/style.css">
         <!--font-awesome css-->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-         
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     </head>
 <body>
 <!---------Navbar----------->
@@ -36,14 +36,27 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active text-white fw-bold" href="#">Home</a>
+          <a class="nav-link active text-white fw-bold" href="#roots">Roots</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white fw-bold" href="#">Link</a>
+          <a class="nav-link text-white fw-bold mx-2" href="#client">Clients</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled text-white fw-bold" aria-disabled="true">Disabled</a>
+          <a class="nav-link text-white fw-bold mx-2" href="#heart">Heart of work</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link text-white fw-bold mx-2" href="#news">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white fw-bold mx-2" href="#award">Award</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white fw-bold mx-2" href="#faq">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white fw-bold mx-2" href="#contact">Contact</a>
+        </li>
+       
       </ul>
     </div>
 
@@ -59,12 +72,12 @@
         <div class="bottom-header"> 
             <p class="sub-heading">Check out our Captivating</p>
             <div class="explore-circle align-items-center">
-                <a href="contact-section" >EXPLORE<br>HERE</a>
+                <a href="#contact" >EXPLORE<br>HERE</a>
             </div>
         </div>     
     </div>
-     <!-- roots Section -->
-  <section class="roots">
+     <!-- roots Section --> 
+  <section id="roots" class="roots">
     <!-- Dark overlay -->
     <div class="roots-overlay"></div>
     <!-- Container for text -->
@@ -93,7 +106,7 @@
   </section>
     
 <!-- Clients Section -->
-<section class="clients-section text-white py-5">
+<section id="client" class="clients-section text-white py-5">
   <div class="container">
       <div class="row">
           <!-- Text Column -->
@@ -182,7 +195,7 @@
 </section>
 
 <!-- Heart of Works Section -->
-<section class="works-section">
+<section id="heart" class="works-section">
   <div class="container ">
     <h1 class="works-title text-end">Heart of works</h1>
 
@@ -218,7 +231,7 @@
           <h3 class="work-title">Shadows of Deceit</h3>
           <img src="asset/images/shadow-face.jpg" alt="Shadows of Deceit" class="img-fluid work-img">
           <p class="work-description">
-            A suspenseful noir-inspired thriller where a private investigator delves into a web of conspiracy and intrigue in the dimly lit streets of a mysterious city.
+            A suspenseful noir-inspired thriller where a private investigator delves into a web of conspiracy and intrigue in the dimx-3y lit streets of a mysterious city.
           </p>
         </div>
       </div>
@@ -234,7 +247,7 @@
             <img src="asset/images/coming-soon.png" alt="Coming Soon" class="img-fluid">
         </div>
             <div class="col-md-12">
-                <h1 class="projects-title">UPCOMING<br>PROJECTS</h>
+                <h1 class="projects-title">UPCOMING<br>PROJECTS</h1>
             </div>
             
         </div>
@@ -261,7 +274,7 @@
 </section>
 
  <!-- News Section -->
- <section class="news-section">
+ <section id="news" class="news-section">
   <div class="container">
       <h1>NEWS</h1>
       <div class="news-cards">
@@ -273,7 +286,7 @@
   </div>
 </section>
  <!-- Testimonials Section -->
- <section class="testimonials-section">
+ <section id="testimonial" class="testimonials-section">
   <div class="container ">
       <h1 class="mb-5">Testimonials</h1>
       <div class="row">
@@ -335,7 +348,7 @@
     </div>
   </div>
 </section>
-<section class="awards-section">
+<section id="award" class="awards-section">
   <div class="container">
       <h1 class="text-start">AWARDS</h1>
       <div class="awards-container">
@@ -407,7 +420,7 @@
 </section>
 
      <!-- FAQ Section -->
-     <section class="faq-section ">
+     <section  id="faq" class="faq-section ">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -426,7 +439,7 @@
   </section>
       
    <!-- Contact Section -->
-   <section class="contact-section">
+   <section  id="contact" class="contact-section">
     <div class="container">
       <h1 class="contact-title">REACH OUT FOR <br>INQUIRIES</h1>
       <div class="contact-info row">
@@ -453,9 +466,27 @@
 
   
 <!-- Latest Bootstrap JS -->
+ <!-- Bootstrap Bundle with Popper.js -->
+<script src="asset/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="asset/bootstrap/js/bootstrap.min.js"></script>
 <script src="asset/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var navLinks = document.querySelectorAll(".nav-link");
+    var navbarCollapse = document.querySelector(".navbar-collapse");
+
+    navLinks.forEach(function (link) {
+      link.addEventListener("click", function () {
+        if (navbarCollapse.classList.contains("show")) {
+          new bootstrap.Collapse(navbarCollapse, {
+            toggle: true,
+          });
+        }
+      });
+    });
+  });
+</script>
+
 </body>
-</html>
+</htmx-3>
